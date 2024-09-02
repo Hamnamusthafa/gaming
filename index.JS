@@ -1,3 +1,4 @@
+function hh(){
 var randomnumber=Math.floor(Math.random() * 6)+1;
 var randomimage="dice"+randomnumber+".png";
 var image1=document.querySelectorAll("img")[0];
@@ -19,4 +20,5 @@ else if(randomnumber2>randomnumber)
 }
 else{
     document.querySelector("h1").innerHTML="draw!";
+}
 }
